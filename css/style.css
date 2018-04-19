@@ -1,0 +1,71 @@
+h3{
+	color:red;
+}
+h1{font-family: 'Anton', sans-serif;
+}
+#single-one {color: orange;}
+#single-two {color: green;}
+
+.multiple{color:red;}
+#single-three {color:purple;}
+
+#my-div{
+
+	position: fixed;
+	width:100vw; 
+	height:100px; 
+	background-color:rgba(0,0,0,0.5);
+	top:0;
+}
+
+#moving-div1{
+	position:relative;
+	width:30vw;
+	height:40px;
+	left:30vw;
+}
+
+#hello{
+	position:static;
+	width:50vw;
+	height:50px;
+	left:125vw;
+	background-color:blue;
+}
+
+#what{
+	position:fixed;
+	width:100vw;
+	height:100px;
+	left:-60vw;
+	background-color:yellow;
+}
+
+#seriously{
+	position:relative;
+	width:30vw;
+	height:30px;
+	top:10;
+	right:-75;
+	background-color:red;
+}
+
+#i{
+	position:absolute;
+	width:30vw;
+	height:30px;
+	top:10;
+	right:-75;
+	background-color:red;
+}
+
+#div5 {
+	width: 100px;
+	height:100px
+	background: red;
+	transition:width 2s ease-in;
+}
+
+#my-element:hover{
+	width: 300px;
+}
